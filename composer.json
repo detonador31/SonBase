@@ -1,0 +1,28 @@
+{
+    "name": "silvio/SONBase",
+    "description": "Base para modulos zf2 criado por Silvio Watakabe",
+    "type": "livrary",
+    "license": "MIT",
+    "keywords": [
+	"module",
+        "zf2",
+	"son"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "authors": [
+	{
+		"name": "Silvio Watakabe",
+		"email": "koomakai@gmail.com"
+	}
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": ">2.2.0rc1",
+        "doctrine/doctrine-orm-module": "0.7.*",
+    },
+    "autoload": {
+        "psr-0": {
+		"SONBase": "src/"
+	}
+    }
+}
